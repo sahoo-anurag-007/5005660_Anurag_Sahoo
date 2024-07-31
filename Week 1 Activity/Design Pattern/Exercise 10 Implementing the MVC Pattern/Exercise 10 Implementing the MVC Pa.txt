@@ -1,0 +1,3 @@
+Exercise 10: Implementing the MVC Pattern
+
+In this exercise, you'll create a simple web application for managing student records using the MVC pattern. The MVC pattern separates the application into three interconnected components: the Model, View, and Controller. The Student class represents the Model, which holds the data and business logic. The StudentView class represents the View, which displays the data to the user. The StudentController class represents the Controller, which handles the communication between the Model and View. The goal is to separate the concerns of the application, making it easier to maintain and extend.

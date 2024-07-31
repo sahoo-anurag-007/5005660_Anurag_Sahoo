@@ -1,0 +1,3 @@
+Exercise 7: Implementing the Observer Pattern
+
+In this exercise, you'll create a stock market monitoring application that notifies multiple clients whenever stock prices change. The Observer Pattern is used to achieve this by decoupling the objects that produce and consume the data. The Stock interface defines methods to register, deregister, and notify observers, while the StockMarket class implements this interface and maintains a list of observers. The Observer interface defines a method to update the observers, and concrete observers like MobileApp and WebApp implement this interface. The goal is to allow multiple observers to be notified of changes to the stock prices without having a direct reference to each other.

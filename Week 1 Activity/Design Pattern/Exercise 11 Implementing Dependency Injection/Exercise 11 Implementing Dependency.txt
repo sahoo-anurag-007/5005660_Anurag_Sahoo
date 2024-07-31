@@ -1,0 +1,13 @@
+Exercise 11: Implementing Dependency Injection:
+
+In this exercise, you'll create a customer management application that demonstrates the use of Dependency Injection to manage dependencies between classes. Specifically, you'll create a CustomerService class that depends on a CustomerRepository class to retrieve customer data.
+
+The problem with tightly coupling the CustomerService class to the CustomerRepository class is that it makes it difficult to switch to a different repository implementation or test the CustomerService class in isolation.
+
+To solve this problem, Dependency Injection is used to decouple the CustomerService class from the CustomerRepository class. Instead of creating an instance of the repository class directly, the CustomerService class receives an instance of the repository class through its constructor. This is known as constructor injection.
+
+By using Dependency Injection, you've decoupled the CustomerService class from the CustomerRepository class, making it easier to switch to a different repository implementation or test the CustomerService class in isolation. This approach also makes the code more flexible, maintainable, and scalable.
+
+
+
+

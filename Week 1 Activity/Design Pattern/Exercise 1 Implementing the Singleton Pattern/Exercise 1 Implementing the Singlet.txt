@@ -1,0 +1,4 @@
+Exercise 1: Implementing the Singleton Pattern
+
+The Singleton Pattern is a creational design pattern that ensures a class has only one instance throughout the application lifecycle. In this exercise, you'll create a Logger class that follows the Singleton Pattern. The goal is to ensure that only one instance of the Logger class is created, and it's accessible globally. This pattern is useful when you need to manage resources that should have a single point of control, such as logging or configuration management.
+

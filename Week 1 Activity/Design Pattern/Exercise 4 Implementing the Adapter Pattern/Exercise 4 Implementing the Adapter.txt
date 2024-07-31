@@ -1,0 +1,3 @@
+Exercise 4: Implementing the Adapter Pattern
+
+The Adapter Pattern is a structural design pattern that allows two incompatible objects to work together by converting the interface of one object into an interface expected by the other object. In this exercise, you'll create a payment processing system that needs to integrate with multiple third-party payment gateways with different interfaces. The goal is to provide a common interface for different payment gateways, allowing for more flexibility and extensibility in your code. This pattern is useful when you need to integrate with external systems or libraries that have different interfaces.

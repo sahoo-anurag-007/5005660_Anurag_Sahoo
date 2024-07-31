@@ -1,0 +1,3 @@
+Exercise 5: Implementing the Decorator Pattern
+
+The Decorator Pattern is a structural design pattern that allows you to add new behaviors to an object without modifying its existing structure. In this exercise, you'll create a notification system where notifications can be sent via multiple channels (e.g., Email, SMS). The goal is to provide a flexible way to add new notification channels without modifying the existing code. This pattern is useful when you need to add new features or behaviors to an object without affecting its existing functionality.

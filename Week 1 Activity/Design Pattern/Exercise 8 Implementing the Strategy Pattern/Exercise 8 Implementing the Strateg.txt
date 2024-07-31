@@ -1,0 +1,3 @@
+Exercise 8: Implementing the Strategy Pattern
+
+In this exercise, you'll create a payment system that allows different payment methods (e.g., Credit Card, PayPal) to be selected at runtime. The Strategy Pattern is used to achieve this by defining a family of algorithms (payment strategies) that can be used interchangeably. The PaymentStrategy interface defines a method to pay, and concrete strategies like CreditCardPayment and PayPalPayment implement this interface. The PaymentContext class holds a reference to a payment strategy and executes it. The goal is to allow the payment system to be flexible and extensible, without modifying the existing code.

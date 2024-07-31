@@ -1,0 +1,3 @@
+Exercise 3: Implementing the Builder Pattern
+
+The Builder Pattern is a creational design pattern that separates the construction of complex objects from their representation. In this exercise, you'll create a Computer class that has multiple optional parts, such as CPU, RAM, and storage. The goal is to provide a step-by-step process for creating complex objects, allowing for more flexibility and customization. This pattern is useful when you need to create objects that have many dependencies or optional features.

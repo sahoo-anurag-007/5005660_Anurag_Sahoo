@@ -1,0 +1,3 @@
+Exercise 9: Implementing the Command Pattern
+
+In this exercise, you'll create a home automation system that allows commands to be issued to turn devices on or off. The Command Pattern is used to achieve this by encapsulating a request as an object, allowing for more flexibility and extensibility. The Command interface defines a method to execute, and concrete commands like LightOnCommand and LightOffCommand implement this interface. The RemoteControl class holds a reference to a command and executes it, while the Light class defines methods to turn on and off. The goal is to allow the home automation system to be flexible and extensible, without modifying the existing code.
